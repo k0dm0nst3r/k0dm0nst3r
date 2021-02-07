@@ -1,0 +1,21 @@
+body {
+  width: 98%;
+  margin-right: 5px;
+  margin-left: 5px;
+  background-color: bisque;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#navigation-top ul {
+  list-style: none;
+  position: relative;
+
+}
+
+#navigation-top li {
+  margin-left: 5px;
+}
+
+#navigation-top a {
+  text-decoration: none;
+}
