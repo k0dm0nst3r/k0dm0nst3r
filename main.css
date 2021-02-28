@@ -1,21 +1,75 @@
+/******************MOBILE*******************/
+
 body {
-  width: 98%;
-  margin-right: 5px;
-  margin-left: 5px;
+  max-height: 100%;
+  max-width: 100%;
   background-color: bisque;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-#navigation-top ul {
+#header-top {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#header-top h1 {
+  max-width: 100%;
+  text-align: center;
+  font-size: 5vw;
+}
+
+.navigation-top {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navigation-top ul {
   list-style: none;
-  position: relative;
-
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  font-size: 4vw;
 }
 
-#navigation-top li {
-  margin-left: 5px;
+.navigation-top li {
+  margin: 2px;
 }
 
-#navigation-top a {
+.navigation-top a {
   text-decoration: none;
+}
+
+#main-container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#main-container .content {
+  font-size: 4vw;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  text-align: justify;
+}
+
+#footer-bottom {
+  max-width: 100%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+
+}
+
+.copyright {
+  font-size: 3vw;
+  text-align: justify;
 }
